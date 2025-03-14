@@ -1,0 +1,45 @@
+.header-container {
+    background-color: #120323;
+    color: #97bf04;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #cccccc;
+}
+
+/* navigation */
+
+nav {
+    background-color: #d9043d;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* gallery */
+
+#gallery-container img {
+    max-width: 650px;
+    border-bottom: 10px solid #97bf04;
+}
+
+/* media queries */
+
+@media (max-width:767px) {
+    
+}
+
+/* footer */
+
+footer {
+    background-color: #d9043d;
+    color: white;
+}
